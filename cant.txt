@@ -1,0 +1,17 @@
+print("Start Clinet")
+
+
+if  game:GetService("Players").LocalPlayer.UserId == 2300773225 then
+	function getNil(name,class) for _,v in pairs(getnilinstances())do if v.ClassName==class and v.Name==name then return v;end end end
+
+local args = {
+    [1] = {
+        [1] = "md"
+    },
+    [3] = getNil("InputObject", "InputObject"),
+    [4] = false
+}
+
+game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack(args))
+
+end
