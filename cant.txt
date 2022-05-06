@@ -1,6 +1,0 @@
-print("Start Clinet")
-
-
-if  game:GetService("Players").LocalPlayer.UserId == 3355159702424 then
-	
-end
