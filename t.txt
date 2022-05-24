@@ -1,0 +1,591 @@
+    
+
+        if getgenv().Password == "━━╬٨ـﮩﮩJLYUB-Ownerـﮩﮩـ╬━❤❥❥═#0001" then
+        
+        
+            --Teleport to qu
+            if getgenv().autoexe == true and game.PlaceId == 536102540 then
+                getgenv().Spambans = false;
+                game:GetService("TeleportService"):Teleport(3565304751,LocalPlayer)
+            end
+        
+        
+            spawn(function (mes)
+                
+                if game:GetService("Players").LocalPlayer.UserId ~= 3355159702 then 
+            
+                    local NomeDoPlayer = game:GetService("Players").LocalPlayer.Name
+            
+                    local args = {
+                        [1] = "Welcome To YUB",
+                        [2] = "All"
+                    }
+                    
+                    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+                    wait(0.5)
+                        local args = {
+                        [1] = NomeDoPlayer,
+                        [2] = "All"
+                    }
+                    
+                    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+            else
+                local args = {
+                    [1] = "Welcome-Owner: Auto-TOP Start",
+                    [2] = "All"
+                }
+                
+                game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+            end
+            end)
+                wait(2)
+        
+            spawn(function()
+            if game:GetService("Players").LocalPlayer.UserId ~= 3355159702 and game.PlaceId == 3565304751 then
+            getgenv().spambans = false;
+                 game.Players.LocalPlayer.Character.Humanoid:ChangeState(2)
+                            tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(2, Enum.EasingStyle.Linear)
+                            tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(7.96737003, 100.713181, 36.8643684, 0.277234942, -0.105162136, 0.955029726, -1.86264515e-09, 0.99399209, 0.109452434, -0.960802197, -0.0303440411, 0.27556932)})
+                            tween:Play()
+                    wait(2)
+                        game:GetService("Players").LocalPlayer.PlayerGui.HUD.Bottom.Stats.Namae.Val.Text = "YUB-Auto-TOP"
+                        game:GetService("Players").LocalPlayer.PlayerGui.HUD.Bottom.Stats.Visible = true 
+                        game:GetService("CoreGui").PlayerList.Enabled = false
+                wait(1)
+                local padpods = {CFrame.new(-48.3385086, 235.494156, 668.319214, -1, -9.27369765e-05, -0.000225895259, -0, 0.925079465, -0.379773647, 0.000244190131, -0.379773647, -0.925079405)}
+                game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = padpods[math.random(1,#padpods)]
+                wait(1.0)
+                game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Anchored = false
+                
+            else
+                --if owner execute
+                if game:GetService("Players").LocalPlayer.UserId == 3355159702 and game.PlaceId == 3565304751 then
+                    getgenv().spambans = false;
+                    game.Players.LocalPlayer.Character.Humanoid:ChangeState(2)
+                    tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(2, Enum.EasingStyle.Linear)
+                    tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(7.96737003, 100.713181, 36.8643684, 0.277234942, -0.105162136, 0.955029726, -1.86264515e-09, 0.99399209, 0.109452434, -0.960802197, -0.0303440411, 0.27556932)})
+                    tween:Play()
+                    local padpods = {CFrame.new(-52.0584183, 235.425674, 668.228577, 0.993756771, -0.0538173281, -0.0977306068, -0, 0.87596792, -0.482369334, 0.111568719, 0.479357779, 0.870499015)}
+                    game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = padpods[math.random(1,#padpods)]
+                    wait(1.0)
+                    game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Anchored = false
+                    game:GetService("Players").LocalPlayer.PlayerGui.HUD.Bottom.Stats.Namae.Val.Text = "Owner-Auto-TOP"
+                    game:GetService("Players").LocalPlayer.PlayerGui.HUD.Bottom.Stats.Visible = true 
+                    game:GetService("CoreGui").PlayerList.Enabled = false
+            wait(2)
+        
+            end
+            end
+            end)
+            
+            if game.PlaceId == 535527772  then
+            wait(2)
+            
+        spawn(function(stop)
+            game:GetService("UserInputService").InputBegan:connect(function(input,gameProccesedEvent)
+                if gameProccesedEvent then return end
+                if input.KeyCode == Enum.KeyCode.P then
+                    wait()
+                getgenv().movespam = false;
+                getgenv().Autofram = false;
+                getgenv().autofram1 = false;
+                getgenv().Spambans = false;
+            
+            end
+            end)
+            end)
+            
+    spawn(function(fov)
+                local amount = 90
+             
+            game:GetService'Workspace'.Camera.FieldOfView = 90
+            end)
+            
+    spawn(function(AutoStats)
+                while wait() do
+            if  getgenv().AutoStats == true then
+                local args = {
+                [1] = game:GetService("Players").LocalPlayer.PlayerGui.HUD.Bottom.Stats:FindFirstChild(getgenv().stats1)
+            }
+            
+            game:GetService("Players").LocalPlayer.Backpack.ServerTraits.AttemptUpgrade:FireServer(unpack(args))
+            end
+            end
+            end)
+            
+    spawn(function()
+            while wait(1) do
+                wait()
+            if game:GetService("Players").LocalPlayer.Character.Ki.Value >= game:GetService("Players").LocalPlayer.Character.Ki.MaxValue * 70 then
+                game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Transform:FireServer("g")
+                    end
+                end
+            end)
+            
+            
+            --game:GetService("Workspace").Live[Player].UpperTorso:WaitForChild("Waist"):Destroy()
+            
+            
+            
+    spawn(function()
+            while wait(0) do
+                wait()
+            if game:GetService("Players").LocalPlayer.Character.Ki.Value <= game:GetService("Players").LocalPlayer.Character.MaxHealth * 0 then
+                game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Transform:FireServer("g")
+                    end
+                end
+            end)
+            local Npc = "Jiren"
+            
+            
+    spawn(function()
+                while getgenv().fix1 == true do
+                     game.Players.LocalPlayer.Character.Humanoid:ChangeState(0)
+                            tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.8, Enum.EasingStyle.Linear)
+                            tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(7.96737003, 100.713181, 36.8643684, 0.277234942, -0.105162136, 0.955029726, -1.86264515e-09, 0.99399209, 0.109452434, -0.960802197, -0.0303440411, 0.27556932)})
+                            tween:Play()
+                end
+            end)
+            
+            
+    spawn(function()
+            while wait(0) do
+                wait()
+               for i,v in pairs(workspace.Live:GetChildren()) do
+                   while getgenv().Killjirenfast == true and  string.find(v.Name, "Jiren") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 1 do
+                getgenv().movespam = false;
+                wait()
+                game:GetService("StarterGui"):SetCore("SendNotification", {
+                Title = "Found!";
+                Text = Npc;
+                })
+            getgenv().noslow = true;
+            getgenv().grab = true;
+            getgenv().Npc = Npc
+            getgenv().noslow = true;
+        
+    spawn(function(noslow)
+            if getgenv().noslow == true then
+        local noslowshit = {"Action", "Attacking", "Using", "hyper", "Hyper", "heavy", "KiBlasted", "Tele", "tele", "Killed", "Slow", "Blocked", "MoveStart", "NotHardBack", "SuperAction"}
+                while true do 
+                    wait()
+                           for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+                        for d,b in pairs(noslowshit) do 
+                            if v.Name == b then 
+                                v:Destroy()
+                        end 
+                        end 
+            end
+            end
+            end
+            end)
+            
+            
+            
+    spawn(function(grab)
+            game:GetService("RunService").RenderStepped:connect(function()
+            if getgenv().grab == true then
+                wait()
+            for g,z in pairs(game:GetService('Players').LocalPlayer.Backpack:GetChildren()) do 
+                if z.Name == "Dragon Throw" then 
+                            z.Parent = game:GetService("Players").LocalPlayer.Character
+                                    local tw = game:GetService("TweenService"):Create(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,TweenInfo.new(0.6, Enum.EasingStyle.Linear),{CFrame = game:GetService("Workspace").Live[getgenv().Npc].HumanoidRootPart.CFrame * CFrame.new(0, 0, 3)})
+            
+                            tw:Play()
+                    tw.Completed:wait()
+                    wait()
+                    z.Activator:WaitForChild("Flip"):Destroy()
+                    z:Activate()
+                    z:Deactivate()
+                    z.Parent = game:GetService('Players').LocalPlayer.Backpack
+            getgenv().grab = false
+            game:GetService("Workspace").Live['Jiren'].Humanoid:WaitForChild("Animator"):Destroy()
+            end
+            end 
+            end 
+            end)
+            game:GetService("RunService").RenderStepped:connect(function()
+            for k,i in pairs(game:GetService("Workspace"):GetChildren()) do
+                if i.Name == "KiBlast" then 
+                i.CFrame = game:GetService("Workspace").Live['Jiren'].HumanoidRootPart.CFrame
+                end 
+                end 
+            end)
+            game:GetService("Players").LocalPlayer.Character:WaitForChild("Dragon Throw")
+            wait(1.8)
+            getgenv().movespam = true
+            getgenv().new = false
+            wait(3)
+            getgenv().fix1 = true
+            end)
+                getgenv().new = false
+            end
+            end
+            end
+            end)
+            
+            
+            getgenv().mesggod = true
+            spawn(function(god)
+            while wait() do
+            if getgenv().mesggod == true and game:GetService("Workspace").Live[getgenv.Player].zDASZzxc then
+                 
+                game:GetService("StarterGui"):SetCore("SendNotification", {
+                Title = "Bosst!";
+                Text = "You In God";
+                })
+            getgenv().mesggod = false
+                    end
+                end
+            end)
+                
+            
+            
+            
+            
+        
+        
+    spawn(function(movespam)
+          while true do
+                wait()
+                
+                       for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
+                           for m,n in pairs(moves) do 
+                               if getgenv().movespam == true and string.match(string.lower(v.Name), string.lower(n)) then 
+                                     v.Parent = game:GetService("Players").LocalPlayer.Character
+                                     wait()
+                        v:Activate()
+                        v:Deactivate()
+                        v.Parent = game:GetService('Players').LocalPlayer.Backpack
+                    end 
+            end 
+            end
+          end
+        end)
+            
+    spawn(function(resettop)
+            while getgenv().resettop == true do
+                wait()
+                    if game:GetService("Players").LocalPlayer.Character.Ki.Value <= game:GetService("Players").LocalPlayer.Character.Ki.MaxValue * 0.8 then 
+                        repeat 
+                            wait()
+                        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Transform:FireServer("g")
+                        until game:GetService("Players").LocalPlayer.Character.Ki.Value >= game:GetService("Players").LocalPlayer.Character.Ki.MaxValue * 0.81
+                        
+                    elseif game:GetService("Players").LocalPlayer.Character.Humanoid.Health <= game:GetService("Players").LocalPlayer.Character.Humanoid.MaxHealth/5 -1 then 
+                        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Transform:FireServer("g")
+                    end
+                end
+            end)
+            
+            spawn(function(Zenni)
+            if getgenv().Zenni == true then
+            
+            while wait(0) do
+                wait()
+               for i,v in pairs(workspace.Live:GetChildren()) do
+            if string.find(v.Name, "Jiren") and v:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v:FindFirstChild("AnimPack") and v.Humanoid.Health < 1 then
+                wait(2)
+                spawn(function()
+                while wait() do
+                     game.Players.LocalPlayer.Character.Humanoid:ChangeState(2)
+                            tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(2, Enum.EasingStyle.Linear)
+                            tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(7.96737003, 100.713181, 36.8643684, 0.277234942, -0.105162136, 0.955029726, -1.86264515e-09, 0.99399209, 0.109452434, -0.960802197, -0.0303440411, 0.27556932)})
+                            tween:Play()
+                end
+                end)
+                getgenv().spambans = false;    
+                getgenv().Autofram = false;
+                getgenv().movespam = false;
+                getgenv().RespawnLowKi = false;
+                while wait(2) do
+                wait()
+            wait(.3)
+            local args = {
+                [1] = workspace.FriendlyNPCs:FindFirstChild("Zenoh-sama")
+            }
+            
+            game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatStart:FireServer(unpack(args))
+            wait(.3)
+            local args = {
+                [1] = {
+                    [1] = "k"
+                }
+            }
+            
+            game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer(unpack(args))
+            wait(.3)
+            local args = {
+                [1] = {
+                    [1] = "100k Zenni"
+                }
+            }
+            
+            game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer(unpack(args))
+            wait(.3)
+            local args = {
+                [1] = {
+                    [1] = "k"
+                }
+            }
+            
+            game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer(unpack(args))
+            wait(.3)
+            local args = {
+                [1] = {
+                    [1] = "Yes"
+                }
+            }
+            
+            game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer(unpack(args))
+            
+            end
+            end
+            end
+            end
+            end
+            end)
+            
+            spawn(function(RespawnLowKi)
+                while getgenv().RespawnLowKi == true do
+                    wait()
+                        if game:GetService("Players").LocalPlayer.Character.Ki.Value <= game:GetService("Players").LocalPlayer.Character.Ki.MaxValue * 0.1 then 
+                            game:GetService("ReplicatedStorage").ResetChar:FireServer()
+                            wait(0.7)
+                            game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Transform:FireServer("g")
+                            wait(1)
+                            game.Players.LocalPlayer.Character.Humanoid:ChangeState(2)
+                            tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(2, Enum.EasingStyle.Linear)
+                            tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(7.96737003, 100.713181, 36.8643684, 0.277234942, -0.105162136, 0.955029726, -1.86264515e-09, 0.99399209, 0.109452434, -0.960802197, -0.0303440411, 0.27556932)})
+                            tween:Play()
+                            getgenv().RespawnLowKi = false
+                            wait(4.7)
+                            getgenv().RespawnLowKi = true
+                    end
+                end
+            end)
+            
+            spawn(function(showstats) 
+                while getgenv().showstats == true do
+                    wait()
+                        game:GetService("Players").LocalPlayer.PlayerGui.HUD.Bottom.Stats.Namae.Val.Text = "Made By YUB / Yarindvir12"
+                        game:GetService("Players").LocalPlayer.PlayerGui.HUD.Bottom.Stats.Visible = true 
+                        game:GetService("CoreGui").PlayerList.Enabled = false
+                
+            end
+            end)
+            
+            spawn(function(autoclick)
+                
+            if getgenv().autoclick == true then
+            local CoreGui = game:GetService("CoreGui")
+            local Players = game:GetService("Players")
+            local VirtualInputManager = game:GetService("VirtualInputManager")
+            
+            --// Variables \\--
+            local Player = Players.LocalPlayer
+            local Enabled = true
+            local Mouse = Player:GetMouse()
+            local X, Y = 0, 0
+            local LastC = Color3.new(1, 0, 0)
+            local LastU = tick()
+            
+            --// Exploit Fix \\--
+            if not pcall(function() return syn.protect_gui end) then
+                syn = {}
+                syn.protect_gui = function(A_1)
+                    A_1.Parent = CoreGui
+                end
+            end
+            
+            --// UI Library \\--
+            local Library = loadstring(game:HttpGetAsync('https://pastebin.com/raw/edJT9EGX'))()
+            local Window = Library:CreateWindow("AutoClicker By: x_x")
+            Enabled_1 = Window:AddColor({
+                text = 'Status:',
+                flag = "Ezpi_1",
+                color = Color3.new(1, 0, 0),
+                callback = function(A_1)
+                    -- "Enabled" Color
+                    local NewColor = Color3.new(0, 1, 0)
+                    if Enabled == false then
+                        NewColor = Color3.new(1, 0, 0)
+                    end
+                    if NewColor ~= Last or A_1 ~= NewColor then
+                        Last = NewColor
+                        Enabled_1:SetColor(NewColor)
+                    end
+                end
+            })
+            Window:AddBind({
+                text = 'Toggle',
+                callback = function()
+                    -- Toggle
+                    Enabled = not Enabled
+                    -- "Enabled" Color
+                    local NewColor = Color3.new(0, 1, 0)
+                    if Enabled == false then
+                        NewColor = Color3.new(1, 0, 0)
+                    end
+                    if NewColor ~= Last then
+                        Last = NewColor
+                        Enabled_1:SetColor(NewColor)
+                    end
+                    -- Click Position
+                    if Enabled then
+                        -- Update Mouse Pos
+                        X, Y = Mouse.X, Mouse.Y + 10
+                        -- Update Box
+                        Box_1:SetValue()
+                    else
+                        X, Y = 0, 0
+                        Box_1:SetValue()
+                    end
+                    -- AutoClick
+                    while Enabled do
+                        VirtualInputManager:SendMouseButtonEvent(X, Y, 0, true, game, 0)
+                        VirtualInputManager:SendMouseButtonEvent(X, Y, 0, false, game, 0)
+                        wait(Library.flags.Interval)
+                    end
+                end
+            })
+            Window:AddSlider({
+                text = 'Interval',
+                min = 0.01,
+                max = 2,
+                value = 1,
+                float = 0.01
+            })
+            Box_1 = Window:AddBox({
+                text = "AutoClick Position:",
+                value = "X: " .. X .. ", Y: " .. Y,
+                callback = function()
+                    if tick()-LastU > 0.1 then
+                        LastU = tick()
+                        Box_1:SetValue("X: " .. X .. ", Y: " .. Y)
+                    end
+                end
+            })
+            Library:Init()
+            end 
+            end)
+            
+            spawn(function(antikick)
+                game:WaitForChild("CoreGui")
+            game.CoreGui:WaitForChild("RobloxPromptGui")
+            game.CoreGui.RobloxPromptGui:WaitForChild("promptOverlay")
+            getgenv().xd = true 
+            while getgenv().xd do wait()
+            if game:GetService("CoreGui").RobloxPromptGui.promptOverlay:FindFirstChild("ErrorPrompt") then 
+            game:GetService("TeleportService"):Teleport(3565304751, LocalPlayer)
+            end
+            end
+            end)
+            
+            
+            spawn(function(noslow)
+        
+            if getgenv().noslow == true then
+        local noslowshit = {"Action", "Attacking", "Using", "hyper", "Hyper", "heavy", "KiBlasted", "Tele", "tele", "Killed", "Slow", "Blocked", "MoveStart", "NotHardBack", "SuperAction"}
+                local runService = game:GetService('RunService')
+                Stepped = runService.Stepped:Connect(function()
+                wait()
+                for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+                for d,b in pairs(noslowshit) do 
+                if v.Name == b then 
+                                v:Destroy()
+                    end 
+                  end 
+               end
+            end)
+            end
+            end)
+            
+            spawn(function(freeze2exp)
+            if getgenv().freeze2exp == true then
+            repeat
+            until game:GetService("Players").LocalPlayer and game:GetService("Players").LocalPlayer.Character and game:IsLoaded()
+            wait(0.5)
+            local lplr=game:service'Players'.LocalPlayer;
+            game:service'RunService'.Heartbeat:connect(function()
+                if game:service'Workspace':findFirstChild'Live' and game:service'Workspace'.Live:findFirstChild(lplr.Name) and lplr.Character:findFirstChild'True' then
+                    lplr.Character:findFirstChild'True'.Parent=nil;
+                end; end);
+            end
+            end)
+            
+            spawn(function()
+            game:service'RunService'.RenderStepped:connect(function()
+              pcall(function()
+                  wait()
+                    game.Players.LocalPlayer.Character.SuperAction:Destroy()
+                    end)
+                end)
+            end)
+            
+            spawn(function(Spambans)
+            while getgenv().Spambans == true do
+                wait()
+            local args = {
+                [1] = true
+            }
+            
+            game:GetService("Players").LocalPlayer.Backpack.ServerTraits.EatSenzu:FireServer(unpack(args))
+            end
+            end)
+            
+            spawn(function(autofram)
+            
+            local runService = game:GetService('RunService')
+            
+            Stepped = runService.Stepped:Connect(function()
+               for i,v in pairs(workspace.Live:GetChildren()) do
+            if string.find(v.Name,"Kale") and v:FindFirstChild("Humanoid") and v:FindFirstChild("AnimPack")  and v.Humanoid.Health >= 10 then
+                    game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+                                        game.Workspace.CurrentCamera.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position, v.HumanoidRootPart.Position) * CFrame.new(1, 0, 0)
+                                        if (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).magnitude > 1000 then
+                                            t = .7
+                                        else
+                                            t = .01
+                                        end
+                                        game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(t, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
+                                            CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0, .1, 3)
+                                        }):Play()
+                                        if v.Humanoid.Health < .1 then
+                                            table.remove(v, 1)
+                                        end
+            if v.Humanoid.Health <= 1 then
+                getgenv().autofram1 = true;
+                end
+            end
+            end
+            end)
+            
+            
+            
+            local runService = game:GetService('RunService')
+            
+            Stepped = runService.Stepped:Connect(function()
+               for i,v in pairs(workspace.Live:GetChildren()) do
+            if getgenv().autofram1 == true and string.find(v.Name,"") and v:FindFirstChild("Humanoid") and v:FindFirstChild("AnimPack")  and v.Humanoid.Health > 1 then
+                    game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+                                        game.Workspace.CurrentCamera.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position, v.HumanoidRootPart.Position) * CFrame.new(1, 0, 0)
+                                        if (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).magnitude > 1000 then
+                                            t = .7
+                                        else
+                                            t = .01
+                                        end
+                                        game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(t, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
+                                            CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0, .1, 3)
+                                        }):Play()
+                                        if v.Humanoid.Health < .1 then
+                                            table.remove(v, 1)
+                                        end
+                    
+            end
+            end
+            end)
+            
+            end)
+                       end
+                 end
