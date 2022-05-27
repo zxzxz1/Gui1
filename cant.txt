@@ -1,0 +1,30 @@
+       local Library = loadstring(game:HttpGet("https://pastebin.com/raw/GX28T0pH", true))()
+        local Credits = Library:CreateWindow("YUB: Not Version")
+        Credits:AddLabel({text = "Welcome-To-YUB"})Credits:AddLabel({text = "Join for new version "})
+        
+        Credits:AddButton({text = "Join Discord Server", callback = function()
+            pcall(function()
+                syn.write_clipboard("https://discord.gg/Qyk99xC8Z3")
+            end)
+            local req = syn and syn.request or HttpService and HttpService.request or http_request or fluxus and fluxus.request or getgenv().request or request
+            if req then
+                req({
+                    Url = 'http://127.0.0.1:6463/rpc?v=1',
+                    Method = 'POST',
+                    Headers = {
+                        ['Content-Type'] = 'application/json',
+                        Origin = 'https://discord.com'
+                    },
+                    Body = HttpService:JSONEncode({
+                        cmd = 'INVITE_BROWSER',
+                        nonce = HttpService:GenerateGUID(false),
+                        args = {code = 'Qyk99xC8Z3'}
+                    })
+                })
+            end
+        end})
+        Credits:AddButton({text = "Destroy Gui", callback = function()
+            Library:Close()
+                end})
+
+        Library:Init()
